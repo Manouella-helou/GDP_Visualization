@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-df=pd.read_csv('C:/Users/USER/Documents/gdp_1960_2020.csv')
+df=pd.read_csv('https://github.com/Manouella-helou/GDP_Visualization/blob/main/gdp_1960_2020.csv')
 st.title('GDP Visualizations')
 #plot the GDP in Asia line chart with a selecting country feature
 # to add a subheader and information about the chart 
